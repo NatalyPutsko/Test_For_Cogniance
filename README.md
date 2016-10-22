@@ -29,7 +29,7 @@ Platform Windows10, python-2.7.12,  pip-8.1.2, requests-2.11.1
   Download access log :http://qainterview.cogniance.com/datamining.log
    
    
-  Count # of successful requests per hour and store results in file "results.txt" with cmd
+  Count # of successful requests per hour and store results in file "results.txt" with Linux cmd
   ```sh
    $ grep -o '200' datamining.log | wc -l > 'results.txt'
   ``` 
